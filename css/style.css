@@ -1,0 +1,81 @@
+@import url('https://fonts.google.com/specimen/Karla');
+
+/* || RESET */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || VARIABLES */
+
+:root {
+    --FONT-FAMILY: "Karla", sans-serif;
+    --FONT-SIZE: 16px;
+
+
+/* COLORS */
+    --H1-COLOR: hsl(179, 62%, 43%);
+    --H2-COLOR: hsl(71, 73%, 54%);
+    --BG-SUBSCRIPTION-COLOR: hsl(204, 43%, 93%);
+    --TEXT-COLOR: hsl(218, 22%, 67%);
+    --BUTTON-BG-COLOR:  hsl(71, 73%, 54%);
+/* BORDERS */
+
+/* STANDARD PADDING */
+
+/* STANDARD MARGIN */
+
+}
+
+/* || UTILITY CLASSES */
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* || GENERAL STYLES */
+
+html {
+    scroll-behavior: smooth;
+    font-size: var(--FONT-SIZE);
+    font-family: var(--FONT-FAMILY);
+
+}
+
+/*body {
+}*/
+
+h1,
+footer {
+    position: absolute;
+    left: -10000px;
+}
+
+h2 {
+    color: var(--H1-COLOR);
+}
+h3 {
+    color: var(--H2-COLOR);
+}
+
+p{
+    color: var(--TEXT-COLOR);
+}
+
+button{
+    background-color: var(--BUTTON-BG-COLOR);
+}
