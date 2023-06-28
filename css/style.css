@@ -121,7 +121,8 @@ strong {
 button {
     background-color: var(--BUTTON-BG-COLOR);
     width: 100%;
-    border-radius: 5%;
+    height: 3.5em;
+    border-radius: 3%;
     margin: 1.5em auto;
     color: var(--WHITE-TEXT-COLOR);
 }
