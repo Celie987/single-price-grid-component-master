@@ -32,6 +32,7 @@ button {
     --BG-SUBSCRIPTION-COLOR: hsl(179, 62%, 43%);
     --TEXT-COLOR: hsl(218, 22%, 67%);
     --BUTTON-BG-COLOR:  hsl(71, 73%, 54%);
+    --BUTTON-BG-COLOR-HOVER: hsl(71, 85%, 54%);
     --BG-ADVANTAGES-COLOR: hsla(179, 62%, 43%, 75%);
     --WHITE-TEXT-COLOR: snow;
     --TEXT-SUBSCRIPTION-COLOR : hsl(204, 43%, 93%);
@@ -156,6 +157,14 @@ button {
     margin: 1.5em auto;
     color: var(--WHITE-TEXT-COLOR);
 }
+
+button:hover {
+    background-color: var(--BUTTON-BG-COLOR-HOVER);
+    transform: scale(102%);
+    cursor: pointer;
+}
+
+
 
 .advantages {
     padding: var(--PADDING-TB) var(--PADDING-SIDE);
