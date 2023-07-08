@@ -44,6 +44,7 @@ button {
 
 /* STANDARD MARGIN */
 --MARGIN: 0 auto 1em;
+--TOP-MARGIN: 2rem 0 1rem;
 
 }
 
@@ -64,12 +65,20 @@ footer {
 }
 
 body {
-    padding: var(--PADDING-TB) var(--PADDING-SIDE);  
+    padding: 5% 20%;
+    background-color: var(--TEXT-SUBSCRIPTION-COLOR );
+}
+
+main{
+  
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 4px 17px 3px hsl(218, 22%, 67%);
 }
 
 h1, h2 {
     font-weight: var(--TITLE-FONT-WEIGHT);
-    margin: var(--MARGIN); 
+    margin: var(--TOP-MARGIN); 
 }
 
 h1 {
@@ -94,6 +103,22 @@ p {
     padding: var(--PADDING-TB) var(--PADDING-SIDE);
 }
 
+
+ @media screen and (min-width: 1440px) {
+    .next-articles {
+        display: flex;
+    }
+    .subscription {
+        flex: 1 1 auto;
+    }
+    .advantages{
+        flex: 1 1 auto;
+    }
+
+
+
+}
+
 .subscription {
     background-color: var(--BG-SUBSCRIPTION-COLOR);
     padding: var(--PADDING-TB) var(--PADDING-SIDE);
@@ -108,14 +133,19 @@ p {
 .subscription p {
     color: var(--WHITE-TEXT-COLOR);
     text-align: justify;
+    margin-bottom: 1em;
 }
 
-.subscription p:first-child {
-    color: var(--BG-ADVANTAGES-COLOR);
-}
+
 
 strong {
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: var(--TITLE-FONT-WEIGHT);
+    margin-right: 7.5px;
+    position: relative;
+    top: 0.3rem;;
+    
+
 }
 
 button {
@@ -145,5 +175,6 @@ ul {
 
 li {
     line-height: 1.5;
+    font-size: 0.9rem;
 }
 
