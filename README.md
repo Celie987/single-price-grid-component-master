@@ -33,8 +33,9 @@ Users should be able to:
 
 My solution screenshots for the two version : Desktop & Mobile.
 
-![Desktop Screenshot](./Screenshots/Desktop screenshot Frontend Mentor Single Price Grid Component.png)
-![Mobile Screenshot](./Screenshots/Mobile%20screenshot%20Frontend%20Mentor%20Single%20Price%20Grid%20Component.png)
+[Desktop Screenshot](<Screenshots/Desktop screenshot Frontend Mentor Single Price Grid Component.png>)
+[Mobile Screenshot](./Screenshots/Mobile%20screenshot%20Frontend%20Mentor%20Single%20Price%20Grid%20Component.png)
+
 
 ### Links
 
