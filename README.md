@@ -18,7 +18,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -33,8 +32,9 @@ Users should be able to:
 
 My solution screenshots for the two version : Desktop & Mobile.
 
-[Desktop Screenshot](<Screenshots/Desktop screenshot Frontend Mentor Single Price Grid Component.png>)
-[Mobile Screenshot](./Screenshots/Mobile%20screenshot%20Frontend%20Mentor%20Single%20Price%20Grid%20Component.png)
+![Desktop Screenshot](./Screenshots/Desktop%20screenshot%20Frontend%20Mentor%20Single%20Price%20Grid%20Component.png)
+
+![Mobile Screenshot](./Screenshots/Mobile%20screenshot%20Frontend%20Mentor%20Single%20Price%20Grid%20Component.png)
 
 
 ### Links
