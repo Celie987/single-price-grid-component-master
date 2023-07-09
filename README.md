@@ -40,7 +40,7 @@ My solution screenshots for the two version : Desktop & Mobile.
 ### Links
 
 - Solution URL: [Github Solution url](https://github.com/Celie987/single-price-grid-component-master)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://celie987.github.io/single-price-grid-component-master/)
 
 ## My process
 
@@ -57,6 +57,8 @@ So first steps in markdown.
 Better knowledge of Git, Github and Visual Code.
 First usage of the lessons provided by Dave Gray on freecodecamp YouTube Chain on html and css.
 And reusage of the wonderfull css template he provided to ensure to cover all the necessary section.
+
+What I also learn is perseverance : for having the page correctly settled in github pages it takes me several hours. I have therfore review all the concept of relative url an so for. For finally, found that what was working was interverting the place of the type attribute and the href attribute in my stylesheet link. 
 
 ### Continued development
 
